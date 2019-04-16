@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">ShippingCalculator</string>
+    <string-array name="singaporepost">
+        <item>Standard Regular (C5, C6 or DL Size)</item>
+        <item>Standard Large (Up to C4 size)</item>
+        <item>Non Standard (Non-letter items)</item>
+    </string-array>
+    <string-array name="speedpost">
+        <item>Speedpost Express</item>
+        <item>Speedpost Priority</item>
+        <item>Speedpost Standard</item>
+    </string-array>
+    <string-array name="ninjavan">
+        <item>Ninja Van Standard Courier</item>
+        <item>Ninja Van Express Courier</item>
+        <item>Ninja Van Self Collect</item>
+    </string-array>
+</resources>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageViewCompany"
+        android:layout_width="match_parent"
+        android:layout_height="199dp"
+        android:scaleType="fitXY"
+        android:paddingBottom="20px"
+        app:srcCompat="@drawable/capture" />
+
+    <TextView
+        android:id="@+id/textViewHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Local Service Only"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="30sp"
+        android:paddingBottom="20px"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/textViewService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choose your service"
+        android:paddingBottom="80px"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <ListView
+        android:id="@+id/listViewCompany"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="@drawable/customborder"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textViewDesc1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:text="Information Last updated: 12/2/2019" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
